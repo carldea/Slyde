@@ -1,7 +1,6 @@
-apply from: "https://gitlab.com/-/snippets/2121059/raw/master/jfbase.gradle"
+apply from: "https://raw.githubusercontent.com/UjhhgtgTeams/Slyde/master/base.gradle"
 
 repositories {
-    maven { url 'https://api.modrinth.com/maven' }
     maven {
         name = 'TerraformersMC'
         url = 'https://maven.terraformersmc.com/'
@@ -9,7 +8,6 @@ repositories {
 }
 
 dependencies {
-    //to change the versions see the gradle.properties file
     minecraft "com.mojang:minecraft:${project.minecraft_version}"
     mappings "net.fabricmc:yarn:${project.minecraft_version}+${project.yarn_mappings}:v2"
     modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
