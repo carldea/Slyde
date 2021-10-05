@@ -1,6 +1,7 @@
 apply from: "https://raw.githubusercontent.com/UjhhgtgTeams/Slyde/master/base.gradle"
 
 repositories {
+    maven { url 'https://api.modrinth.com/maven' }
     maven {
         name = 'TerraformersMC'
         url = 'https://maven.terraformersmc.com/'
