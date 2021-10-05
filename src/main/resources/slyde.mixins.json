@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "io.gitlab.jfronny.slyde.mixin",
+  "compatibilityLevel": "JAVA_14",
+  "plugin": "io.gitlab.jfronny.slyde.Plugin",
+  "mixins": [
+  ],
+  "client": [
+    "DoubleOptionMixin",
+    "SliderWidgetMixin",
+    "SodiumSliderControlMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "slyde",
+  "version": "${version}",
+  "name": "Slyde",
+  "description": "Allows dragging sliders further than intended",
+  "authors": [
+    "JFronny"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/slyde",
+    "sources": "https://gitlab.com/jfmods/slyde",
+    "issues": "https://gitlab.com/jfmods/slyde/-/issues"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "libjf:config": [
+      "io.gitlab.jfronny.slyde.Cfg"
+    ]
+  },
+  "mixins": [
+    "slyde.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.10.0+build.208",
+    "minecraft": "*",
+    "libjf": ">=1.2.0"
+  }
+}
